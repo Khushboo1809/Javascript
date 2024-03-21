@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #52cbec, #d161ff);
+}
+#container{
+    border: 1px solid white;
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+ 
+}
+#box1{
+    background-color: aliceblue;
+    position: relative;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#box1 input{
+    width: 70%;
+    width: 70%;
+    height: 2rem;
+    background-color: white;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(44, 43, 43);
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid rgb(140, 140, 140);
+    border-radius: 2px;
+    position: relative;
+}
+#box1 input:focus{
+    outline: none;
+    border: 2px solid rgb(141, 29, 141);
+}
+#box1 button{
+    background-color: #c34bf3;
+    border-radius: 2px;
+    border: 0.5px solid rgb(141, 29, 141);
+    float: right;
+    width: 20%;
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+#task{
+    border: 1px solid rgb(148, 148, 148);
+    padding: 30px 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 60px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+}
+#tasks{
+    border-bottom: 2px solid rgb(148, 148, 148);
+    padding: 5px 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+}
+#taskname{
+    width: 100%;
+    height: 2rem;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(44, 43, 43);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+}
+.delete{
+    background-color: #c34bf3;
+    border-radius: 2px;
+    border: 0.5px solid rgb(141, 29, 141);
+    float: right;
+    width: 20%;
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+}
